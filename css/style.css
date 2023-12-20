@@ -1,0 +1,64 @@
+@charset "UTF-08";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 69px;
+    width: 100%;
+    margin-top: 10px;
+}
+.container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    width: 100px;
+}
+.foto img {
+    width: 30px;
+    border-radius: 50%;
+}
+.search_form {
+    display: flex;
+}
+.search_form img {
+    width: 24px;
+}
+.logo {
+    display: flex;
+    flex: 1;
+}
+.search {
+    border-radius: 24px;
+    border: 1px solid black;
+    display: flex;
+    flex: 2;
+}
+.top_right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.top_left {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+.search_form {
+    display: flex;
+}
+.search_input {
+    width: 100%;
+    border-radius: 24px;
+}
+.search_input input {
+    width: 100%;
+}
